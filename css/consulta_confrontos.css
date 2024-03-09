@@ -1,0 +1,89 @@
+
+
+.nav {
+    margin-top: 1px;
+    margin-left:30px;
+    background: -webkit-linear-gradient(#007FFF, #385172); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#007FFF, #385172); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#007FFF, #385172); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#007FFF, #385172); /* Standard syntax */
+    height:25px; 
+    width:1200px;
+    box-shadow:1px 1px 1px 1px #FFFFFF;
+}
+
+.nav a{
+    font-family: Tahoma;
+    font-size: 12px;
+    color: #FFFFFF;
+    padding:10px;
+}
+
+.nav li {
+    margin-top: 2px;
+    color:#fff;
+}
+
+.nav ul li {
+    float:left; 
+    display:inline; 
+    padding:2px; 
+    margin-left:8px;
+}
+
+.nav ul li a{ 
+    text-decoration:none; 
+    text-transform:capitalize; 	
+}
+
+.cadastros{
+    display: flex;
+    flex-wrap: nowrap; 
+    width: 1905px;
+    height: 900px;
+    color:#0f0e0e;
+    font-family: 'Foldit', sans-serif;
+    font-size: 12px;
+    background-color: rgb(157, 167, 196);
+}
+
+.lista_confrontos {
+    margin-top: 110px;
+    margin-left: 130px;
+    padding: 10px;
+    height:600px;
+    width:1600px;
+    background: rgba(8, 64, 206, 0.3);
+    box-shadow: 10px 10px 10px 5px rgba(0, 0, 0, 0.35);
+    backdrop-filter: blur(25px);
+    
+    /* Note: backdrop-filter has minimal browser support */
+    border-radius: 30px 30px 30px 30px;
+}
+
+.lista_confrontos p{
+    height: 12px;
+    text-align:center;
+    font-family: 'Foldit', sans-serif;
+    font-size:12px;
+    color:rgb(0, 0, 0);
+    max-height:100px;
+}
+
+.lista_confrontos thead tr{
+    font-family: 'Foldit', sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 12px;
+}
+
+.confrontos_lista th{
+    font-family: 'Foldit', sans-serif;
+    color: rgb(86, 133, 219);
+}
+
+.display {
+    font-family: 'Foldit', sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+    text-align: center;
+}

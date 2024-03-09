@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family= Foldit :wght@300 & exibir=trocar');
+
+.nav {
+    margin-top: 1px;
+    margin-left:30px;
+    background: -webkit-linear-gradient(#007FFF, #385172); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#007FFF, #385172); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#007FFF, #385172); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#007FFF, #385172); /* Standard syntax */
+    height:25px; 
+    width:1200px;
+    box-shadow:1px 1px 1px 1px #FFFFFF;
+}
+
+.nav a{
+    font-family: Tahoma;
+    font-size: 12px;
+    color: #FFFFFF;
+    padding:10px;
+}
+
+.nav li {
+    margin-top: 2px;
+    color:#fff;
+}
+
+.nav ul li {
+    float:left; 
+    display:inline; 
+    padding:2px; 
+    margin-left:8px;
+}
+
+.nav ul li a{ 
+    text-decoration:none; 
+    text-transform:capitalize; 	
+}
+
+/* Altera as configurações de fonte e cor no display */
+.diversos{
+    width: 1900px;
+    display: flex;
+    flex-wrap: nowrap; 
+    color:#0f0e0e;
+    font-family: 'Foldit', sans-serif;
+    font-size: 12px;
+}
+
+.diversos_confrontos{
+    width: 600px;
+    height: 840px;
+    margin-left: 2px;
+    background-color: rgb(157, 167, 196);
+}
+
+.diversos_escalacoes {
+    width: 690px;
+    height: 840px;
+    margin-left: 5px;
+    background-color: rgb(157, 167, 196);
+}
+
+.diversos_estatisticas {
+    width: 600px;
+    height: 840px;
+    margin-left: 5px;
+    background-color: rgb(157, 167, 196);
+}

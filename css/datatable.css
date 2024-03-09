@@ -1,0 +1,306 @@
+@import url(https://fonts.googleapis.com/css?family=Titillium+Web:700italic);
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+#fm{
+    margin:0 auto;
+    padding:10px 30px;
+}
+.ftitle{
+    font-size:20px;
+    font-family: 'Titillium Web', sans-serif;
+    text-align:center;
+    padding:5px 0;
+    margin-bottom:10px;
+    border-bottom:1px solid #ccc;
+}
+.fitem{
+    float: left;
+    margin-bottom:5px;
+}
+.fitem label{
+    display:inline-block;
+    width:100px;
+    font-size:13px;
+    font-weight:tahoma;
+    font-style:italic;
+}
+.fitem input{
+    width:220px;
+    font-size:13px;
+    font-weight:tahoma;
+    color:#069;
+}
+
+#dados_atletas{
+    position: relative;
+    width: 450px;
+    float: left;
+}
+
+.dados_atleta{
+    float: left;
+    margin-bottom:5px;
+}
+
+.dados_atleta label{
+    display:inline-block;
+    width:100px;
+    font-size:13px;
+    font-family: 'Titillium Web', sans-serif;
+    font-style:italic;
+    color:#000000;
+}
+
+.dados_atleta input{
+    width:267px;
+    margin-top: 5px;
+    font-size:13px;
+    font-family: 'Montserrat', sans-serif;
+    color:#069;
+}
+
+.figure_atleta{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    margin-left: 400px;
+    box-shadow: 1px 1px 4px #005FA9;
+}
+
+#dados_treinador{
+    position: relative;
+    width: 450px;
+    float: left;
+}
+
+.dados_treinador{
+    margin-bottom:5px;
+    float: left;
+}
+
+.dados_treinador label{
+    display:inline-block;
+    width:100px;
+    font-size:13px;
+    font-family: 'Titillium Web', sans-serif;
+    font-style:italic;
+    color:#000000;
+}
+
+.dados_treinador input{
+    width:250px;
+    font-size:13px;
+    font-family: 'Montserrat', sans-serif;
+    color:#069;
+}
+
+.figure_treinador{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    margin-left: 380px;
+    box-shadow: 1px 1px 4px #005FA9;
+}
+
+#dados_estadio{
+    width: 400px;
+    float: left;
+}
+
+.dados_estadios{
+    margin-bottom: 5px;
+    width: 380px;
+    float: left;
+}
+
+.dados_estadios label{
+    margin-bottom:5px;
+    display:inline-block;
+    width:80px;
+    font-size:13px;
+    font-family: 'Titillium Web', sans-serif;
+    font-style:italic;
+    color:#000000;
+}
+
+.dados_estadios input{
+    width:250px;
+    font-size:13px;
+    font-family: 'Montserrat', sans-serif;
+    color:#069;
+}
+
+.figure_estadio{
+    position: absolute;
+    width: 300px;
+    height: 250px;
+    margin-left: 360px;
+    box-shadow: 1px 1px 4px #005FA9;
+}
+
+.figure_estadio img{
+    position: absolute;
+}
+
+.imagem_estadio{
+    margin-top: 0px;
+    margin-left: 30px;
+    width: 150px;
+    height: 150px;   
+}
+
+#dados_clubes{
+    position: relative;
+    width: 450px;
+    float: left;
+}
+
+.dados_clubes{
+    float: left;
+    margin-bottom:5px;
+}
+
+.dados_clubes label{
+    display:inline-block;
+    width:100px;
+    font-size:13px;
+    font-family: 'Titillium Web', sans-serif;
+    font-style:italic;
+    color:#000000;
+}
+
+.dados_clubes input{
+    width:220px;
+    font-size:13px;
+    font-family: 'Montserrat', sans-serif;
+    color:#069;
+}
+
+.figure_clubes{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    margin-left: 350px;
+    box-shadow: 1px 1px 4px #005FA9;
+}
+
+#dados_usuarios{
+    position: relative;
+    width: 450px;
+    float: left;
+}
+
+.dados_usuario{
+    float: left;
+    margin-bottom:5px;
+}
+
+.dados_usuario label{
+    display:inline-block;
+    width:120px;
+    font-size:13px;
+    font-family: 'Titillium Web', sans-serif;
+    font-style:italic;
+    color:#000000;
+}
+
+.dados_usuario input{
+    width:220px;
+    font-size:13px;
+    font-family: 'Montserrat', sans-serif;
+    color:#069;
+}
+
+.figure_usuarios{
+    position: absolute;
+    width: 150px;
+    margin-left: 380px;
+    box-shadow: 1px 1px 4px #005FA9;
+}
+
+.dados_jogos{
+    padding: 10px;
+    width: 150px;
+}
+
+.dados_jogos img{
+    display:inline-block;
+    margin-left: 20px;
+    
+}
+
+.dados_jogos input{
+    width: 50px;
+    margin-left:30px;
+    font-size:13px;
+    font-family: 'Montserrat', sans-serif;
+    color:#069;
+}
+
+.estatisticas{
+    position: absolute;
+    width: 200px;
+ 
+    margin-left: 45px;
+    padding:5px;
+    border-radius:15px;
+}
+
+.estatisticas input{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.dados_data label{
+    margin-bottom:10px;
+    display:inline-block;
+    width:100px;
+    font-size:13px;
+    font-family: 'Titillium Web', sans-serif;
+    font-style:italic;
+    color:#000000;
+}
+
+.dados_data input{
+    margin-bottom:5px;
+    display:inline-block;
+    width:80px;
+    font-size:12px;
+    font-family: 'Montserrat', sans-serif; 
+}
+
+.dados_fundacao label{
+    margin-bottom:10px;
+    display:inline-block;
+    width:80px;
+    font-size:13px;
+    font-family: 'Titillium Web', sans-serif;
+    font-style:italic;
+    color:#000000;
+}
+
+.dados_fundacao input{
+    margin-bottom:5px;
+    display:inline-block;
+    width:70px;
+    font-size:12px;
+    font-family: 'Montserrat', sans-serif; 
+}
+
+.dados_ano_atuacao label{
+    margin-bottom:10px;
+    display:inline-block;
+    width:100px;
+    font-size:13px;
+    font-family: 'Titillium Web', sans-serif;
+    font-style:italic;
+    color:#000000;
+}
+
+.dados_ano_atuacao input{
+    margin-bottom:5px;
+    display:inline-block;
+    width:37px;
+    text-align: center;
+    font-size:12px;
+    font-family: 'Montserrat', sans-serif; 
+}
