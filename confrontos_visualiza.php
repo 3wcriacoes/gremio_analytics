@@ -49,21 +49,14 @@ include_once "conn.php";
             <script src="https://cdn.datatables.net/2.0.1/js/dataTables.js"></script>
 
             <script>
-
-                $
-
-                function eventFired(type) {
-                    let n = document.querySelector('#demo_info');
-                    n.innerHTML +=
-                        '<div>' + type + ' event - ' + new Date().getTime() + '</div>';
-                    n.scrollTop = n.scrollHeight;
-                }
-
-                new DataTable('#confrontos_visualiza_listar')
-                    .on('order.dt', () => eventFired('Order'))
-                    .on('search.dt', () => eventFired('Search'))
-                    .on('page.dt', () => eventFired('Page'));
-            </script>
+        $(document).ready(function() {
+          $('#confrontos_listar').DataTable({
+            processing: true,
+            serverSide: true,
+            ajax: 'confrontos_listar.php',
+          });
+        });
+      </script>
 </body>
 
 </html>
