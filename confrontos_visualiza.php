@@ -12,7 +12,7 @@ include_once "conn.php";
 
     <link rel="stylesheet" href="./css/consulta_confrontos.css" />
 
-    <link rel="stylesheet" href="https://cdn.datatables.net/2.0.1/css/dataTables.dataTables.css" />
+    <link href="DataTables/datatables.min.css" rel="stylesheet" />
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.2.0/css/all.css">
