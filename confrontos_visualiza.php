@@ -45,10 +45,10 @@ include_once "conn.php";
                 </div>
 
             </section>
-            <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
-            <script src="https://cdn.datatables.net/2.0.1/js/dataTables.js"></script>
+            <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+      <script src="./DataTables/datatables.min.js"></script>
 
-            <script>
+      <script>
         $(document).ready(function() {
           $('#confrontos_listar').DataTable({
             processing: true,
@@ -57,6 +57,7 @@ include_once "conn.php";
           });
         });
       </script>
+    </div>
 </body>
 
 </html>
