@@ -102,6 +102,8 @@ include_once "conn.php";
                                     <option id="select" value="Jogo Único">Jogo Único</option>
                                     <option id="select" value="Jogo de Ida">Jogo de Ida</option>
                                     <option id="select" value="Jogo de Volta">Jogo de Volta</option>
+                                    <option id="select" value="Semifinal">Semifinal</option>
+                                    <option id="select" value="Final">Final</option>
                                 </select>
                             </td>
                         </tr>
