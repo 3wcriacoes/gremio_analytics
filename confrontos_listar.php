@@ -5,8 +5,8 @@ include_once 'conn.php';
 $dados_requisicao = $_REQUEST;
 
 $colunas = [
-    0 => 'ano_confronto',
-    1 => 'data_confronto',
+    0 => 'data_confronto',
+    1 => 'ano_confronto',
     2 => 'competicoes',
     3 => 'clube_mandante',
     4 => 'placar_mandante',
@@ -16,7 +16,7 @@ $colunas = [
     8 => 'acoes',
 ];
 
-$query_qnt_confrontos = "SELECT COUNT(id_confrontos) AS qnt_confrontos FROM confrontos";
+$query_qnt_confrontos = "SELECT COUNT(id_confrontos) AS qnt_confrontos FROM confrontos order by DATE_FORMAT(dt_confronto, '%d/%m/%Y') asc";
 $result_qnt_confrontos = $conn->prepare($query_qnt_confrontos);
 $result_qnt_confrontos->execute();
 $row_qnt_confrontos = $result_qnt_confrontos->fetch(PDO::FETCH_ASSOC);
@@ -56,8 +56,8 @@ $result_confrontos->execute();
 while($row_confrontos = $result_confrontos->fetch(PDO::FETCH_ASSOC)){
     extract($row_confrontos);
     $registro = [];
-    $registro[] = $ano_confronto;
     $registro[] = $data_confronto;
+    $registro[] = $ano_confronto;
     $registro[] = $competicoes;
     $registro[] = $clube_mandante;
     $registro[] = $placar_mandante;
