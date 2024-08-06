@@ -10,6 +10,11 @@ include_once "conn.php";
     <title>Consulta de Confrontos cadastrados</title>
     <script type="text/javascript" src="./js/jquery-1.4.4.min.js"></script>
 
+    <script type="text/javascript" language="javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.8.4/moment.min.js"></script>
+    <script type="text/javascript" language="javascript" src="https://cdn.datatables.net/plug-ins/1.10.10/sorting/datetime-moment.js"></script>
+    <script type="text/javascript" language="javascript" src="cdnjs.cloudflare.com/ajax/libs/moment.js/2.8.4/moment.min.js"></script>
+    <script type="text/javascript" language="javascript" src="cdn.datatables.net/plug-ins/2.0.8/sorting/datetime-moment.js"></script>
+
     <link rel="stylesheet" href="./css/consulta_confrontos.css" />
 
     <link href="DataTables/datatables.min.css" rel="stylesheet" />
@@ -46,18 +51,25 @@ include_once "conn.php";
 
             </section>
             <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
-      <script src="./DataTables/datatables.min.js"></script>
+            <script src="./DataTables/datatables.min.js"></script>
 
-      <script>
-        $(document).ready(function() {
-          $('#confrontos_listar').DataTable({
-            processing: true,
-            serverSide: true,
-            ajax: 'confrontos_listar.php',
-          });
-        });
-      </script>
-    </div>
+            <script>
+                $(document).ready(function() {
+                    $('#confrontos_listar').DataTable({
+                        processing: true,
+                        serverSide: true,
+                        ajax: 'confrontos_listar.php',
+                    });
+                });
+            </script>
+
+            <script>
+                $(document).ready(function() {
+                    $.fn.dataTable.moment('DD/MM/YYYY HH:mm');
+                    $('#confrontos_listar').DataTable();
+                });
+            </script>
+        </div>
 </body>
 
 </html>
